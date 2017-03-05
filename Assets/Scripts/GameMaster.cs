@@ -13,7 +13,7 @@ public class GameMaster : MonoBehaviour {
 	public Text pointsText;
 
 	void Update() {
-		pointsText.text = ("Points: " + points);
+		pointsText.text = ("Body: " + points);
 		Debug.Log (queue1);
 		Debug.Log (queue2);
 	}
